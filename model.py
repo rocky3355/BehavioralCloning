@@ -1,7 +1,6 @@
 import os
 import csv
 import cv2
-import numpy as np
 from keras.layers import *
 from keras.models import Sequential
 
@@ -11,13 +10,6 @@ RECORD_CSV_FILE = 'driving_log.csv'
 MODEL_SAVE_FILE = 'model.h5'
 STEERING_CORRECTION = 0.1
 DATA_CHUNK_SIZE = 1000
-
-
-#class RecordEntry:
-#    def __init__(self, img, steering, record_dir):
-#        self.img = img
-#        self.steering = steering
-#        self.img_dir = record_dir
 
 
 def load_data():
