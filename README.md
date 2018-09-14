@@ -40,3 +40,6 @@ In the video the car drives near the center line most of the time. The sharp cur
 1. Extend the model architecture (i.e. change filter/kernel sizes, add extra layers)
 2. Create more training data for the problematic parts of the track
 3. Use the second track to collect training data
+
+
+Note: The video has not been speed up, I changed the speed in drive.py to 30.
