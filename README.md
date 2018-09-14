@@ -29,7 +29,10 @@ The provided sample images already produced a decent model for keeping the vehic
 
 For the first point, I assume that the fact of yellow lines dominating the track leads to a lack of training data for the sharp curves. For an overall improvement, I recorded the whole track once driving at the center line. I especially created some records for those sharp curves.
 
-For the bridge, center line recovering did not work at all. The reason for this is, that the camera only sees the bridge borders in a straight way, as center line driving is employed for the records. Thus, I created several records solely for recovering on the bridge. In the video, the car still oscillates a little bit from one side to another, but before using the extra records, it just crashed into the borders.
+For the bridge, center line recovering did not work at all. The reason for this is, that the camera only sees the bridge borders in a straight way, as center line driving is employed for the records. Thus, I created several records solely for recovering on the bridge. In the video, the car still oscillates a little bit from one side to another, but before using the extra records, it just crashed into the borders. Below you can see some example images from the bridge recovering records.
+
+![](train01.jpg)
+![](train02.jpg)
 
 ## 3. Conclusion
 In the video the car drives near the center line most of the time. The sharp curves and the bridge are still the biggest weak points in my model. But in the passage above, I showed that even with a little extra training, the behaviour can be massively improved already. Below I made some suggestions for further improving the model:
